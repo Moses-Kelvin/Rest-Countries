@@ -1,0 +1,49 @@
+.section {
+ display: grid;
+ grid-template-columns: 1fr 1fr;
+ margin-left: 1rem;
+}
+
+.form {
+    display: flex;
+    width: 25rem;
+    padding: 0.6rem;
+    background-color: white;
+    margin: 2rem 0 0 2rem;
+    box-shadow: 0 0 10px rgb( 0 0 0 /10%);
+    border-radius: 5px;
+}
+
+.form input {
+    width: 20rem;
+    padding: 0.5rem 1rem;
+    outline: none;
+    border: 0;
+}
+
+.form > img {
+    padding: 0 1rem;
+}
+
+.form > button {
+    border: 0;
+    background-color: white;
+}
+
+
+.input {
+    color:  white;
+}
+
+@media (max-width: 500px) {
+    .section {
+        grid-template-columns: 1fr;
+        margin-left: 0;
+    }
+
+    .form {
+        width: 80%;
+        justify-self: center;
+        margin-left: 0;
+    }
+}

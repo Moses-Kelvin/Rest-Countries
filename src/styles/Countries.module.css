@@ -1,0 +1,45 @@
+.country {
+    width: 15rem;
+    height: 17rem;
+    background-color: white;
+    color: black;
+    padding-bottom: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(0 0 0 /20%);
+}
+
+.country h3 {
+    font-size: 0.8rem;
+}
+
+.country span {
+    font-weight: lighter;
+}
+
+.country h2 {
+  font-size: 1rem;
+}
+
+.country img {
+    width: 100%;
+    height: 50%;
+    border-radius: 10px 10px 0 0;
+}
+
+.country div:nth-child(2) {
+    width: 100%;
+    margin-left: 1rem;
+}
+
+@media (max-width: 500px) {
+    .country {
+        width: 22rem;
+    }
+}
+
+
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px) { 
+  .country {
+    width: 14rem;
+  }
+}

@@ -1,0 +1,17 @@
+.NotFound {
+    display: grid;
+    justify-items: center;
+    width: 100%;
+}
+
+.NotFound div:nth-child(1) {
+     margin-top: 7rem;
+}
+
+
+.NotFound button {
+     padding: 0.5rem 1rem;
+     border: 0;
+     border-radius: 5px;
+     margin-left: 4rem;
+}

@@ -1,0 +1,36 @@
+.header {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+    background-color: white;
+    box-shadow: 0 0 10px rgb( 0 0 0 /30%);
+}
+
+.header > h4 {
+    padding: 0 0 0 4rem;
+}
+
+.header p {
+    font-size: 0.9rem;
+}
+
+.header div:nth-child(2) {
+    justify-self: end;
+    align-self: center;
+    padding: 0 5rem 0 0;
+}
+
+.moon path{
+    fill: white;
+}
+
+@media (max-width: 500px) {
+    .header > h4 {
+        padding: 0.5rem 0 0.5rem 1rem;
+        font-size: 0.9rem;
+    }
+
+    .header div:nth-child(2) {
+        padding-right: 1rem;
+    }
+}
